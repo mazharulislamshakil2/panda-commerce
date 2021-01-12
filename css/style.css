@@ -1,0 +1,139 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+/* defolt */
+.navbar{
+    background-color: ;
+}
+h1.heading-text {
+    color: #ff257b;
+    font-size: 38px;
+    margin-bottom: 0px;
+    margin-top: 41px;
+}
+.carousel-inner.slide-item {
+    background-color: #fceae8;
+}
+nav.navbar.fixed-top.navbar-expand-lg {
+    background-color: #d8bbb7b8;
+}
+.text.text-center {
+    background-color: #d8bbb791;
+}
+.card-footer {
+    border: 0 !important;
+}
+.card.shadow {
+    border: 0;
+    margin-left: 18px;
+    width: 300px;
+    padding: 9px;
+}
+.card.shadow img {
+    width: 100%;
+}
+.text.text-center {
+    height: 70px;
+}
+img {
+    width: 100%;
+}
+.p-3.border.bg-primary.rounded.d-flex.align-items-center.justify-content-around img {
+    width: 107px;
+}
+.p-3.border.bg-success.rounded.d-flex.align-items-center.justify-content-around img {
+   
+    width: 107px;
+}
+.p-3.border.bg-info.rounded.d-flex.align-items-center.justify-content-around img {
+   
+    width: 107px;
+}
+footer.footer.mt-5 {
+    background-color: #f8f9fa!important;
+    height: 60px;
+}
+.text.text-center {
+    padding-top: 20px;
+}
+.carousel-item .col-md-7 a {
+    border: 2px solid #ff000063;
+    text-decoration: none;
+    padding: 6px 22px;
+    background-color: #ff00007a;
+    border-radius: 13px;
+    color: white;
+}
+
+.carousel-item .col-md-7 h4 {
+    margin-bottom: 30px;
+}
+
+.carousel-item .col-md-7 h4 {
+    color: red;
+    font-size: 35px;
+}
+
+.submit-button.d-flex.flex-column input {
+    width: 47%;
+    margin-left: 134px;
+    margin-bottom: 18px;
+    height: 40px;
+    margin-top: 18px;
+}
+.submit-button.d-flex.flex-column button {
+    width: 26%;
+    height: 41px;
+    margin-left: 183px;
+}
+.submit-full {
+    text-align: center;
+}
+.submit-button.d-flex.flex-column input {
+    text-align: center;
+}     
+.card-footer .btn.btn-dark {
+    background-color: #ffb826fc;
+    border: 2px solid #ff1f7733;
+}
+.navbar-nav {
+    margin-right: 30px;
+}
+.navbar-nav a.nav-link {
+    margin-left: 40px;
+}
+.carousel-inner.slide-item {
+    margin-top: 56px;
+}
+
+/* responsive */
+
+@media (max-width:991px){
+    .card.shadow {
+        width: 220px;
+    }
+}
+@media (max-width:767px){
+    .card-footer .btn.btn-dark {
+        width: 120%;
+        margin-left: -11px;
+    }
+}
+@media (max-width:531px){
+    .carousel-item .col-md-7 {
+        margin-bottom: 20px;
+    }
+    .card-footer .btn.btn-dark {
+        width: 142%;
+        margin-left: -19px;
+    }
+}
+
+
+
+
